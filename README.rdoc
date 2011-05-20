@@ -1,0 +1,17 @@
+= Node.JS SIP Registrar Experiment
+
+1. Dial any DID via SIP by calling sip:16025551212@your_domain.com 
+2. Add all of your SIP addresses to your chris@your_domain.com account, track presence, and handle routing in order specified
+3. TBD
+
+= Requires
+
+- Node.JS
+- Tropo (http://tropo.com)
+- SIP.js (npm install sip)
+- Softphone like Blink (http://icanblink.com) or SJPhone
+
+- REDIS 
+-- Run Redis - cd /usr/local/src/redis-2.2.4 and run src/redis-server
+-- Get/set KVPs using src/redis-cli
+
