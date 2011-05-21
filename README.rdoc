@@ -1,8 +1,8 @@
 = Node.JS SIP Registrar Experiment
 
-1. Dial any DID via SIP by calling sip:16025551212@your_domain.com 
-2. Add all of your SIP addresses to your chris@your_domain.com account, track presence, and handle routing in order specified
-3. TBD
+- Handle basic SIP registrar capabilities 
+- Dial any PSTN number via SIP by calling the number in the username space i.e. sip:16025551212@your_domain.com 
+- Add all of your SIP addresses to your chris@your_domain.com account, track presence, and handle routing in order specified
 
 = Requires
 
@@ -15,3 +15,4 @@
 -- Run Redis - cd /usr/local/src/redis-2.2.4 and run src/redis-server
 -- Get/set KVPs using src/redis-cli
 
+Note: SIP runs on port 55040 by default.
